@@ -480,10 +480,7 @@ text.label {
   text-anchor: middle;
   paint-order: stroke;
   fill: var(--color--layer--text);
-  x: 600;
-}
-.layer-Fn text.label {
-  translate: 581px 164px;
+  translate: 600px 20px;
 }
 
 
