@@ -429,7 +429,7 @@ svg.keymap {
   --color--bg: transparent;
   --color--text: var(--color--material--blue-gray--900);
 
-  --color--layer--text: var(--color--material--blue-gray--400);
+  --color--layer--text: var(--color--material--blue-gray--800);
 
   --color--key--bg: var(--color--material--blue-gray--50);
   --color--key--border: white;
