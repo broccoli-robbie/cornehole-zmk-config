@@ -434,10 +434,10 @@ draw_config:
     /* Layer labels */
     text.label {
       font-size: 36px;
-      text-anchor: start;
+      text-anchor: middle;
       paint-order: stroke;
       fill: var(--color--layer--text);
-      translate: 581px 146px;
+      x: 600;
     }
     .layer-Fn text.label {
       translate: 581px 164px;
