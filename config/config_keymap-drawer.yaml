@@ -38,12 +38,12 @@ parse_config:
     "&vim_g": Move Screen
 
     # bluetooth
-    "&bt BT_CLR": $$mdi:bluetooth$$
-    "&bt BT_SEL 0": BT 1
-    "&bt BT_SEL 1": BT 2
-    "&bt BT_SEL 2": BT 3
-    "&bt BT_SEL 3": BT 4
-    "&bt BT_SEL 4": BT 5
+    "&bt BT_CLR": $$mdi:bluetooth-off$$
+    "&bt BT_SEL 0": $$mdi:blietooth-connect$$ 1
+    "&bt BT_SEL 1": $$mdi:blietooth-connect$$ 2
+    "&bt BT_SEL 2": $$mdi:blietooth-connect$$ 3
+    "&bt BT_SEL 3": $$mdi:blietooth-connect$$ 4
+    "&bt BT_SEL 4": $$mdi:blietooth-connect$$ 5
 
   zmk_keycode_map:
     # modifiers

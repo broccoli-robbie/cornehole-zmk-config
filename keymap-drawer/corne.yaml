@@ -283,12 +283,12 @@ layers:
   - F6
   - F11
   - F14
-  - BT 5
-  - BT 4
-  - BT 3
-  - BT 2
-  - BT 1
-  - $$mdi:bluetooth$$
+  - $$mdi:blietooth-connect$$ 5
+  - $$mdi:blietooth-connect$$ 4
+  - $$mdi:blietooth-connect$$ 3
+  - $$mdi:blietooth-connect$$ 2
+  - $$mdi:blietooth-connect$$ 1
+  - $$mdi:bluetooth-off$$
   - F16
   - F1
   - F2
