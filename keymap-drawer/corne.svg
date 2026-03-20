@@ -432,7 +432,9 @@ svg.keymap {
   --color--layer--text: var(--color--material--blue-gray--800);
 
   --color--key--bg: var(--color--material--blue-gray--50);
+  --color--key-bg--held: var(--color--material--red--300);
   --color--key--border: white;
+  --color--key--border--held: var(--color--material--red--500);
   --color--key--text--tap: var(--color--text);
   --color--key--text--shifted: var(--color--material--blue-gray--400);
   --color--key--text--hold: var(--color--material--blue-gray--400);
@@ -508,6 +510,12 @@ rect.combo {
 }
 .hold.glyph {
   translate: 26px 2px;
+}
+
+.held {
+  border: var(--color--key--border--held);
+  background-color: var(--color--key--bg--held);
+  stroke-width: 2;
 }
 
 
