@@ -39,11 +39,11 @@ parse_config:
 
     # bluetooth
     "&bt BT_CLR": $$mdi:bluetooth-off$$
-    "&bt BT_SEL 0": $$mdi:blietooth-connect$$ 1
-    "&bt BT_SEL 1": $$mdi:blietooth-connect$$ 2
-    "&bt BT_SEL 2": $$mdi:blietooth-connect$$ 3
-    "&bt BT_SEL 3": $$mdi:blietooth-connect$$ 4
-    "&bt BT_SEL 4": $$mdi:blietooth-connect$$ 5
+    "&bt BT_SEL 0": $$mdi:bluetooth-connect$$ 1
+    "&bt BT_SEL 1": $$mdi:bluetooth-connect$$ 2
+    "&bt BT_SEL 2": $$mdi:bluetooth-connect$$ 3
+    "&bt BT_SEL 3": $$mdi:bluetooth-connect$$ 4
+    "&bt BT_SEL 4": $$mdi:bluetooth-connect$$ 5
 
   zmk_keycode_map:
     # modifiers
