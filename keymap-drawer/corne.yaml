@@ -38,10 +38,10 @@ layers:
   - /
   - \
   - {t: '$$mdi:backspace-reverse-outline$$', h: Cursor}
-  - {t: '$$mdi:backspace$$', h: Number}
+  - {t: '$$mdi:backspace$$', h: Numbers}
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:keyboard-space$$
-  - {t: '$$mdi:keyboard-return$$', h: Symbol}
+  - {t: '$$mdi:keyboard-return$$', h: Symbols}
   - {t: '-', h: System}
   Number:
   - {t: '$$mdi:menu-down-outline$$', type: trans}
@@ -81,7 +81,7 @@ layers:
   - .
   - '#'
   - <
-  - {t: '=', type: held}
+  - '='
   - '>'
   - {t: Base, h: toggle}
   - $$mdi:keyboard-return$$
@@ -127,7 +127,7 @@ layers:
   - '='
   - '>'
   - {t: Base, h: toggle}
-  - {t: '$$mdi:application-settings-outline$$', type: held}
+  - $$mdi:application-settings-outline$$
   - _
   Cursor:
   - $$mdi:keyboard-esc$$
@@ -166,7 +166,7 @@ layers:
   - $$mdi:skip-next$$
   - $$mdi:stop$$
   - $$mdi:arrow-vertical-lock$$
-  - {t: Base, h: toggle, type: held}
+  - {t: Base, h: toggle}
   - ''
   - ''
   - {t: Base, h: toggle}
@@ -300,4 +300,4 @@ layers:
   - {t: Game, h: toggle}
   - {t: Vim, h: toggle}
   - {t: Symbol, h: toggle}
-  - {t: Base, h: toggle, type: held}
+  - {t: Base, h: toggle}
