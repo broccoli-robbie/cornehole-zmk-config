@@ -283,11 +283,11 @@ layers:
   - F6
   - F11
   - F14
-  - BT 5
-  - BT 4
-  - BT 3
-  - BT 2
-  - BT 1
+  - {h: '5', s: '$$mdi:bluetooth-connect$$'}
+  - {h: '4', s: '$$mdi:bluetooth-connect$$'}
+  - {h: '3', s: '$$mdi:bluetooth-connect$$'}
+  - {h: '2', s: '$$mdi:bluetooth-connect$$'}
+  - {h: '1', s: '$$mdi:bluetooth-connect$$'}
   - $$mdi:bluetooth-off$$
   - F16
   - F1
