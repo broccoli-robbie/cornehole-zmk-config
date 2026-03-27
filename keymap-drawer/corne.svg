@@ -608,7 +608,7 @@ rect.combo {
 .keypos-36 .hold,
 .keypos-37 .hold,
 .keypos-38 .hold {
-  translate: -26px 4px;
+  translate: -22px 4px;
 }
 
 .keypos-0 .hold.glyph,
@@ -632,7 +632,7 @@ rect.combo {
 .keypos-36 .hold.glyph,
 .keypos-37 .hold.glyph,
 .keypos-38 .hold.glyph {
-  translate: -26px 2px;
+  translate: -22px 2px;
 }
 </style>
 <g transform="translate(0, 0)" class="layer-Base">
