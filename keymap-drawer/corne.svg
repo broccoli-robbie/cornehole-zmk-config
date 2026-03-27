@@ -515,7 +515,7 @@ rect.combo {
   translate: 28px 2px;
 }
 
-.held {
+rect.held {
   fill: var(--color--key--bg--held);
 }
 

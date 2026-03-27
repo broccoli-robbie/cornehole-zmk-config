@@ -498,7 +498,7 @@ draw_config:
       translate: 28px 2px;
     }
 
-    .held {
+    rect.held {
       fill: var(--color--key--bg--held);
     }
 
