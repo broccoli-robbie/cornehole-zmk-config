@@ -509,7 +509,7 @@ rect.combo {
 .hold {
   dominant-baseline: ideographic;
   fill: var(--color--key--text--hold);
-  translate: 20px 4px;
+  translate: 20px 2px;
 }
 .hold.glyph {
   translate: 28px 2px;
@@ -608,7 +608,7 @@ rect.combo {
 .keypos-36 .hold,
 .keypos-37 .hold,
 .keypos-38 .hold {
-  translate: -20px 4px;
+  translate: -20px 2px;
 }
 
 .keypos-0 .hold.glyph,
