@@ -615,3 +615,7 @@ draw_config:
     .keypos-38 .hold.glyph {
       translate: -20px 2px;
     }
+
+    .keypos-38 .held {
+      fill: var(--color--key--bg--held);
+    }
