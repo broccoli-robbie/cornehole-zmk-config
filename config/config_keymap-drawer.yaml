@@ -492,10 +492,10 @@ draw_config:
     .hold {
       dominant-baseline: ideographic;
       fill: var(--color--key--text--hold);
-      translate: 32px 4px;
+      translate: 42px 4px;
     }
     .hold.glyph {
-      translate: 32px 2px;
+      translate: 28px 2px;
     }
 
     .held {
