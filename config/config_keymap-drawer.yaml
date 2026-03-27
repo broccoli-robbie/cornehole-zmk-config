@@ -499,9 +499,7 @@ draw_config:
     }
 
     .held {
-      border: var(--color--key--border--held);
-      background-color: var(--color--key--bg--held);
-      stroke-width: 2;
+      fill: var(--color--key--bg--held);
     }
 
 
