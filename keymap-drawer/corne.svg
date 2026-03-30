@@ -633,19 +633,11 @@ rect.held {
   translate: -20px 2px;
 }
 
-.keypos-36 .held {
-  fill: var(--color--key--bg--held);
-}
-.keypos-37 .held {
-  fill: var(--color--key--bg--held);
-}
-.keypos-38 .held {
-  fill: var(--color--key--bg--held);
-}
-.keypos-40 .held {
-  fill: var(--color--key--bg--held);
-}
-.keypos-41 .held {
+.keypos-36 .key.held,
+.keypos-37 .key.held,
+.keypos-38 .key.held,
+.keypos-40 .key.held,
+.keypos-41 .key.held {
   fill: var(--color--key--bg--held);
 }
 </style>
