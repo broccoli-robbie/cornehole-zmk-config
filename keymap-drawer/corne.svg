@@ -632,14 +632,6 @@ rect.held {
 .keypos-38 .hold.glyph {
   translate: -20px 2px;
 }
-
-.keypos-36 .key.held,
-.keypos-37 .key.held,
-.keypos-38 .key.held,
-.keypos-40 .key.held,
-.keypos-41 .key.held {
-  fill: var(--color--key--bg--held);
-}
 </style>
 <g transform="translate(0, 0)" class="layer-Base">
 <text x="0" y="0" class="label" id="Base">Base</text>
