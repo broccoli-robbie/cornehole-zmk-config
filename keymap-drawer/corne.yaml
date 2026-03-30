@@ -1,303 +1,303 @@
-layout: {zmk_keyboard: corne}
+layout: { zmk_keyboard: corne }
 layers:
   Base:
-  - {t: '$$mdi:keyboard-esc$$', s: Vim}
-  - Q
-  - W
-  - E
-  - R
-  - T
-  - Y
-  - U
-  - I
-  - O
-  - P
-  - '@'
-  - $$mdi:keyboard-tab$$
-  - {t: A, h: '$$mdi:apple-keyboard-shift$$'}
-  - {t: S, h: '$$mdi:apple-keyboard-control$$'}
-  - {t: D, h: '$$mdi:apple-keyboard-option$$'}
-  - {t: F, h: '$$mdi:linux$$'}
-  - G
-  - H
-  - {t: J, h: '$$mdi:linux$$'}
-  - {t: K, h: '$$mdi:apple-keyboard-option$$'}
-  - {t: L, h: '$$mdi:apple-keyboard-control$$'}
-  - {t: ;, h: '$$mdi:apple-keyboard-shift$$'}
-  - ''''
-  - $$mdi:keyboard-tab-reverse$$
-  - Z
-  - X
-  - C
-  - V
-  - B
-  - N
-  - M
-  - ','
-  - .
-  - /
-  - \
-  - {t: '$$mdi:backspace-reverse-outline$$', h: Cursor}
-  - {t: '$$mdi:backspace$$', h: Numbers}
-  - $$mdi:apple-keyboard-shift$$
-  - $$mdi:keyboard-space$$
-  - {t: '$$mdi:keyboard-return$$', h: Symbols}
-  - {t: '-', h: System}
+    - { t: "$$mdi:keyboard-esc$$", s: Vim }
+    - Q
+    - W
+    - E
+    - R
+    - T
+    - Y
+    - U
+    - I
+    - O
+    - P
+    - "@"
+    - $$mdi:keyboard-tab$$
+    - { t: A, h: "$$mdi:apple-keyboard-shift$$" }
+    - { t: S, h: "$$mdi:apple-keyboard-control$$" }
+    - { t: D, h: "$$mdi:apple-keyboard-option$$" }
+    - { t: F, h: "$$mdi:linux$$" }
+    - G
+    - H
+    - { t: J, h: "$$mdi:linux$$" }
+    - { t: K, h: "$$mdi:apple-keyboard-option$$" }
+    - { t: L, h: "$$mdi:apple-keyboard-control$$" }
+    - { t: ;, h: "$$mdi:apple-keyboard-shift$$" }
+    - "'"
+    - $$mdi:keyboard-tab-reverse$$
+    - Z
+    - X
+    - C
+    - V
+    - B
+    - N
+    - M
+    - ","
+    - .
+    - /
+    - \
+    - { t: "$$mdi:backspace-reverse-outline$$", h: Cursor, type: held }
+    - { t: "$$mdi:backspace$$", h: Numbers, type: held }
+    - $$mdi:apple-keyboard-shift$$
+    - $$mdi:keyboard-space$$
+    - { t: "$$mdi:keyboard-return$$", h: Symbols, type: held }
+    - { t: "-", h: System, type: held }
   Number:
-  - {t: '$$mdi:menu-down-outline$$', type: trans}
-  - {t: '$$mdi:apple-keyboard-shift$$', h: sticky}
-  - $$mdi:redo$$
-  - $$mdi:undo$$
-  - $$mdi:backspace$$
-  - $$mdi:content-cut$$
-  - '*'
-  - '7'
-  - '8'
-  - '9'
-  - /
-  - '%'
-  - {t: '$$mdi:menu-down-outline$$', type: trans}
-  - $$mdi:apple-keyboard-shift$$
-  - $$mdi:apple-keyboard-control$$
-  - $$mdi:apple-keyboard-option$$
-  - $$mdi:linux$$
-  - $$mdi:content-copy$$
-  - +
-  - '4'
-  - '5'
-  - '6'
-  - '-'
-  - ^
-  - $$mdi:apple-keyboard-caps$$
-  - Gui+$$mdi:keyboard-tab$$
-  - $$mdi:keyboard-tab-reverse$$
-  - {t: '$$mdi:keyboard-return$$', type: enter}
-  - $$mdi:monitor-screenshot$$
-  - $$mdi:content-paste$$
-  - $
-  - '1'
-  - '2'
-  - '3'
-  - .
-  - '#'
-  - <
-  - '='
-  - '>'
-  - {t: Base, h: toggle}
-  - $$mdi:keyboard-return$$
-  - '0'
+    - { t: "$$mdi:menu-down-outline$$", type: trans }
+    - { t: "$$mdi:apple-keyboard-shift$$", h: sticky }
+    - $$mdi:redo$$
+    - $$mdi:undo$$
+    - $$mdi:backspace$$
+    - $$mdi:content-cut$$
+    - "*"
+    - "7"
+    - "8"
+    - "9"
+    - /
+    - "%"
+    - { t: "$$mdi:menu-down-outline$$", type: trans }
+    - $$mdi:apple-keyboard-shift$$
+    - $$mdi:apple-keyboard-control$$
+    - $$mdi:apple-keyboard-option$$
+    - $$mdi:linux$$
+    - $$mdi:content-copy$$
+    - +
+    - "4"
+    - "5"
+    - "6"
+    - "-"
+    - ^
+    - $$mdi:apple-keyboard-caps$$
+    - Gui+$$mdi:keyboard-tab$$
+    - $$mdi:keyboard-tab-reverse$$
+    - { t: "$$mdi:keyboard-return$$", type: enter }
+    - $$mdi:monitor-screenshot$$
+    - $$mdi:content-paste$$
+    - $
+    - "1"
+    - "2"
+    - "3"
+    - .
+    - "#"
+    - <
+    - "="
+    - ">"
+    - { t: Base, h: toggle }
+    - $$mdi:keyboard-return$$
+    - "0"
   Symbol:
-  - '~'
-  - '!'
-  - '@'
-  - '#'
-  - $
-  - '%'
-  - ;
-  - $$mdi:folder-multiple-outline$$
-  - $$mdi:voicemail$$
-  - $$mdi:file-excel-outline$$
-  - ':'
-  - $$mdi:menu-left-outline$$
-  - '['
-  - '{'
-  - (
-  - )
-  - '}'
-  - ']'
-  - +
-  - $$mdi:email-outline$$
-  - $$mdi:calendar-month$$
-  - $$mdi:message-text-outline$$
-  - '-'
-  - $$mdi:menu$$
-  - '`'
-  - ^
-  - '&'
-  - '*'
-  - '|'
-  - \
-  - ''''
-  - $$mdi:calculator$$
-  - $$mdi:text-box-edit-outline$$
-  - $$mdi:file-word-outline$$
-  - '"'
-  - $$mdi:button-pointer$$
-  - <
-  - '='
-  - '>'
-  - {t: Base, h: toggle}
-  - $$mdi:application-settings-outline$$
-  - _
+    - "~"
+    - "!"
+    - "@"
+    - "#"
+    - $
+    - "%"
+    - ;
+    - $$mdi:folder-multiple-outline$$
+    - $$mdi:voicemail$$
+    - $$mdi:file-excel-outline$$
+    - ":"
+    - $$mdi:menu-left-outline$$
+    - "["
+    - "{"
+    - (
+    - )
+    - "}"
+    - "]"
+    - +
+    - $$mdi:email-outline$$
+    - $$mdi:calendar-month$$
+    - $$mdi:message-text-outline$$
+    - "-"
+    - $$mdi:menu$$
+    - "`"
+    - ^
+    - "&"
+    - "*"
+    - "|"
+    - \
+    - "'"
+    - $$mdi:calculator$$
+    - $$mdi:text-box-edit-outline$$
+    - $$mdi:file-word-outline$$
+    - '"'
+    - $$mdi:button-pointer$$
+    - <
+    - "="
+    - ">"
+    - { t: Base, h: toggle }
+    - $$mdi:application-settings-outline$$
+    - _
   Cursor:
-  - $$mdi:keyboard-esc$$
-  - {t: '$$mdi:apple-keyboard-shift$$', h: sticky}
-  - $$mdi:redo$$
-  - $$mdi:undo$$
-  - $$mdi:backspace$$
-  - $$mdi:content-cut$$
-  - Home
-  - $$mdi:transfer-down$$
-  - $$mdi:transfer-up$$
-  - End
-  - Ins
-  - $$mdi:application-settings-outline$$
-  - Extend Word
-  - $$mdi:apple-keyboard-shift$$
-  - $$mdi:apple-keyboard-control$$
-  - $$mdi:apple-keyboard-option$$
-  - $$mdi:linux$$
-  - $$mdi:content-copy$$
-  - $$mdi:arrow-left-bold$$
-  - $$mdi:arrow-down-bold$$
-  - $$mdi:arrow-up-bold$$
-  - $$mdi:arrow-right-bold$$
-  - $$mdi:printer-outline$$
-  - $$mdi:lock-percent-outline$$
-  - Extend Line
-  - Select All
-  - Select Line
-  - Selext Word
-  - $$mdi:find-replace$$
-  - $$mdi:content-paste$$
-  - $$mdi:skip-previous$$
-  - $$mdi:volume-minus$$
-  - $$mdi:volume-plus$$
-  - $$mdi:skip-next$$
-  - $$mdi:stop$$
-  - $$mdi:arrow-vertical-lock$$
-  - {t: Base, h: toggle}
-  - ''
-  - ''
-  - {t: Base, h: toggle}
-  - $$mdi:play-pause$$
-  - $$mdi:volume-mute$$
+    - $$mdi:keyboard-esc$$
+    - { t: "$$mdi:apple-keyboard-shift$$", h: sticky }
+    - $$mdi:redo$$
+    - $$mdi:undo$$
+    - $$mdi:backspace$$
+    - $$mdi:content-cut$$
+    - Home
+    - $$mdi:transfer-down$$
+    - $$mdi:transfer-up$$
+    - End
+    - Ins
+    - $$mdi:application-settings-outline$$
+    - Extend Word
+    - $$mdi:apple-keyboard-shift$$
+    - $$mdi:apple-keyboard-control$$
+    - $$mdi:apple-keyboard-option$$
+    - $$mdi:linux$$
+    - $$mdi:content-copy$$
+    - $$mdi:arrow-left-bold$$
+    - $$mdi:arrow-down-bold$$
+    - $$mdi:arrow-up-bold$$
+    - $$mdi:arrow-right-bold$$
+    - $$mdi:printer-outline$$
+    - $$mdi:lock-percent-outline$$
+    - Extend Line
+    - Select All
+    - Select Line
+    - Selext Word
+    - $$mdi:find-replace$$
+    - $$mdi:content-paste$$
+    - $$mdi:skip-previous$$
+    - $$mdi:volume-minus$$
+    - $$mdi:volume-plus$$
+    - $$mdi:skip-next$$
+    - $$mdi:stop$$
+    - $$mdi:arrow-vertical-lock$$
+    - { t: Base, h: toggle }
+    - ""
+    - ""
+    - { t: Base, h: toggle }
+    - $$mdi:play-pause$$
+    - $$mdi:volume-mute$$
   Game:
-  - T
-  - $$mdi:keyboard-tab$$
-  - Q
-  - W
-  - E
-  - R
-  - {t: '$$mdi:menu-down-outline$$', type: trans}
-  - {t: '$$mdi:menu-down-outline$$', type: trans}
-  - {t: '$$mdi:menu-down-outline$$', type: trans}
-  - {t: '$$mdi:menu-down-outline$$', type: trans}
-  - {t: '$$mdi:menu-down-outline$$', type: trans}
-  - {t: '$$mdi:menu-down-outline$$', type: trans}
-  - G
-  - $$mdi:apple-keyboard-shift$$
-  - A
-  - S
-  - D
-  - F
-  - {t: '$$mdi:menu-down-outline$$', type: trans}
-  - {t: '$$mdi:menu-down-outline$$', type: trans}
-  - {t: '$$mdi:menu-down-outline$$', type: trans}
-  - {t: '$$mdi:menu-down-outline$$', type: trans}
-  - {t: '$$mdi:menu-down-outline$$', type: trans}
-  - {t: '$$mdi:menu-down-outline$$', type: trans}
-  - B
-  - $$mdi:apple-keyboard-control$$
-  - Z
-  - X
-  - C
-  - V
-  - {t: '$$mdi:menu-down-outline$$', type: trans}
-  - {t: '$$mdi:menu-down-outline$$', type: trans}
-  - {t: '$$mdi:menu-down-outline$$', type: trans}
-  - {t: '$$mdi:menu-down-outline$$', type: trans}
-  - {t: '$$mdi:menu-down-outline$$', type: trans}
-  - {t: '$$mdi:menu-down-outline$$', type: trans}
-  - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {t: '$$mdi:keyboard-esc$$', h: Number}
-  - $$mdi:keyboard-space$$
-  - {t: Base, h: toggle}
-  - $$mdi:backspace$$
-  - $$mdi:backspace-reverse-outline$$
+    - T
+    - $$mdi:keyboard-tab$$
+    - Q
+    - W
+    - E
+    - R
+    - { t: "$$mdi:menu-down-outline$$", type: trans }
+    - { t: "$$mdi:menu-down-outline$$", type: trans }
+    - { t: "$$mdi:menu-down-outline$$", type: trans }
+    - { t: "$$mdi:menu-down-outline$$", type: trans }
+    - { t: "$$mdi:menu-down-outline$$", type: trans }
+    - { t: "$$mdi:menu-down-outline$$", type: trans }
+    - G
+    - $$mdi:apple-keyboard-shift$$
+    - A
+    - S
+    - D
+    - F
+    - { t: "$$mdi:menu-down-outline$$", type: trans }
+    - { t: "$$mdi:menu-down-outline$$", type: trans }
+    - { t: "$$mdi:menu-down-outline$$", type: trans }
+    - { t: "$$mdi:menu-down-outline$$", type: trans }
+    - { t: "$$mdi:menu-down-outline$$", type: trans }
+    - { t: "$$mdi:menu-down-outline$$", type: trans }
+    - B
+    - $$mdi:apple-keyboard-control$$
+    - Z
+    - X
+    - C
+    - V
+    - { t: "$$mdi:menu-down-outline$$", type: trans }
+    - { t: "$$mdi:menu-down-outline$$", type: trans }
+    - { t: "$$mdi:menu-down-outline$$", type: trans }
+    - { t: "$$mdi:menu-down-outline$$", type: trans }
+    - { t: "$$mdi:menu-down-outline$$", type: trans }
+    - { t: "$$mdi:menu-down-outline$$", type: trans }
+    - { t: "$$mdi:keyboard-return$$", type: enter }
+    - { t: "$$mdi:keyboard-esc$$", h: Number }
+    - $$mdi:keyboard-space$$
+    - { t: Base, h: toggle }
+    - $$mdi:backspace$$
+    - $$mdi:backspace-reverse-outline$$
   Vim:
-  - {t: Base, h: toggle}
-  - $$mdi:keyboard-esc$$
-  - Next Word
-  - Word End
-  - Replace
-  - ''
-  - Yank
-  - Undo
-  - Insert
-  - New Line
-  - $$mdi:content-paste$$
-  - ''
-  - {t: '$$mdi:menu-down-outline$$', type: trans}
-  - Append
-  - Substitute
-  - Delete
-  - ''
-  - Move Screen
-  - $$mdi:arrow-left-bold$$
-  - $$mdi:arrow-down-bold$$
-  - $$mdi:arrow-up-bold$$
-  - $$mdi:arrow-right-bold$$
-  - ''
-  - ''
-  - {t: '$$mdi:menu-down-outline$$', type: trans}
-  - ''
-  - $$mdi:backspace-reverse-outline$$
-  - Change
-  - ''
-  - Prev Word
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - $$mdi:apple-keyboard-option$$
-  - $$mdi:apple-keyboard-control$$
-  - {t: '$$mdi:menu-down-outline$$', type: trans}
-  - {t: Base, h: toggle}
-  - {t: '$$mdi:menu-down-outline$$', type: trans}
-  - ''
+    - { t: Base, h: toggle }
+    - $$mdi:keyboard-esc$$
+    - Next Word
+    - Word End
+    - Replace
+    - ""
+    - Yank
+    - Undo
+    - Insert
+    - New Line
+    - $$mdi:content-paste$$
+    - ""
+    - { t: "$$mdi:menu-down-outline$$", type: trans }
+    - Append
+    - Substitute
+    - Delete
+    - ""
+    - Move Screen
+    - $$mdi:arrow-left-bold$$
+    - $$mdi:arrow-down-bold$$
+    - $$mdi:arrow-up-bold$$
+    - $$mdi:arrow-right-bold$$
+    - ""
+    - ""
+    - { t: "$$mdi:menu-down-outline$$", type: trans }
+    - ""
+    - $$mdi:backspace-reverse-outline$$
+    - Change
+    - ""
+    - Prev Word
+    - ""
+    - ""
+    - ""
+    - ""
+    - ""
+    - ""
+    - $$mdi:apple-keyboard-option$$
+    - $$mdi:apple-keyboard-control$$
+    - { t: "$$mdi:menu-down-outline$$", type: trans }
+    - { t: Base, h: toggle }
+    - { t: "$$mdi:menu-down-outline$$", type: trans }
+    - ""
   System:
-  - Ctl+Sft+$$mdi:keyboard-esc$$
-  - $$mdi:logout$$
-  - $$mdi:lock-outline$$
-  - $$mdi:power-sleep$$
-  - $$mdi:power-standby$$
-  - Alt+Ctl+$$mdi:backspace-reverse-outline$$
-  - F18
-  - F7
-  - F8
-  - F9
-  - F12
-  - F15
-  - $$mdi:lock$$
-  - $$mdi:brightness-1$$
-  - $$mdi:brightness-4$$
-  - $$mdi:brightness-6$$
-  - $$mdi:brightness-7$$
-  - $$mdi:brightness-auto$$
-  - F17
-  - F4
-  - F5
-  - F6
-  - F11
-  - F14
-  - {t: '5', s: '$$mdi:bluetooth-connect$$'}
-  - {t: '4', s: '$$mdi:bluetooth-connect$$'}
-  - {t: '3', s: '$$mdi:bluetooth-connect$$'}
-  - {t: '2', s: '$$mdi:bluetooth-connect$$'}
-  - {t: '1', s: '$$mdi:bluetooth-connect$$'}
-  - $$mdi:bluetooth-off$$
-  - F16
-  - F1
-  - F2
-  - F3
-  - F10
-  - F13
-  - {t: Cursor, h: toggle}
-  - {t: Number, h: toggle}
-  - {t: Game, h: toggle}
-  - {t: Vim, h: toggle}
-  - {t: Symbol, h: toggle}
-  - {t: Base, h: toggle}
+    - Ctl+Sft+$$mdi:keyboard-esc$$
+    - $$mdi:logout$$
+    - $$mdi:lock-outline$$
+    - $$mdi:power-sleep$$
+    - $$mdi:power-standby$$
+    - Alt+Ctl+$$mdi:backspace-reverse-outline$$
+    - F18
+    - F7
+    - F8
+    - F9
+    - F12
+    - F15
+    - $$mdi:lock$$
+    - $$mdi:brightness-1$$
+    - $$mdi:brightness-4$$
+    - $$mdi:brightness-6$$
+    - $$mdi:brightness-7$$
+    - $$mdi:brightness-auto$$
+    - F17
+    - F4
+    - F5
+    - F6
+    - F11
+    - F14
+    - { t: "5", s: "$$mdi:bluetooth-connect$$" }
+    - { t: "4", s: "$$mdi:bluetooth-connect$$" }
+    - { t: "3", s: "$$mdi:bluetooth-connect$$" }
+    - { t: "2", s: "$$mdi:bluetooth-connect$$" }
+    - { t: "1", s: "$$mdi:bluetooth-connect$$" }
+    - $$mdi:bluetooth-off$$
+    - F16
+    - F1
+    - F2
+    - F3
+    - F10
+    - F13
+    - { t: Cursor, h: toggle }
+    - { t: Number, h: toggle }
+    - { t: Game, h: toggle }
+    - { t: Vim, h: toggle }
+    - { t: Symbol, h: toggle }
+    - { t: Base, h: toggle }
