@@ -133,7 +133,7 @@
             compatible = "zmk,behavior-tap-dance";
             label = "VIM_Y";
             #binding-cells = <0>;
-            bindings = <&none>, <&none>;
+            bindings = <&kp LC(C)>, <&yank_line>;
         };
 
         vim_i: vim_i {
