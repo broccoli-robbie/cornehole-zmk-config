@@ -221,43 +221,43 @@ layers:
   - Next Word
   - Word End
   - Replace
-  - ''
+  - {t: '$$mdi:menu-down-outline$$', type: trans}
   - Yank
   - Undo
   - Insert
   - New Line
   - $$mdi:content-paste$$
-  - ''
+  - {t: '$$mdi:menu-down-outline$$', type: trans}
   - {t: '$$mdi:menu-down-outline$$', type: trans}
   - Append
   - Substitute
   - Delete
-  - ''
+  - {t: '$$mdi:menu-down-outline$$', type: trans}
   - Move Screen
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-up-bold$$
   - $$mdi:arrow-right-bold$$
-  - ''
-  - ''
   - {t: '$$mdi:menu-down-outline$$', type: trans}
-  - ''
+  - {t: '$$mdi:menu-down-outline$$', type: trans}
+  - {t: '$$mdi:menu-down-outline$$', type: trans}
+  - {t: '$$mdi:menu-down-outline$$', type: trans}
   - $$mdi:backspace-reverse-outline$$
   - Change
-  - ''
+  - {t: '$$mdi:menu-down-outline$$', type: trans}
   - Prev Word
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
+  - {t: '$$mdi:menu-down-outline$$', type: trans}
+  - {t: '$$mdi:menu-down-outline$$', type: trans}
+  - {t: '$$mdi:menu-down-outline$$', type: trans}
+  - {t: '$$mdi:menu-down-outline$$', type: trans}
+  - {t: '$$mdi:menu-down-outline$$', type: trans}
+  - {t: '$$mdi:menu-down-outline$$', type: trans}
   - $$mdi:apple-keyboard-option$$
   - $$mdi:apple-keyboard-control$$
   - {t: '$$mdi:menu-down-outline$$', type: trans}
   - {t: Base, h: toggle}
   - {t: '$$mdi:menu-down-outline$$', type: trans}
-  - ''
+  - {t: '$$mdi:menu-down-outline$$', type: trans}
   System:
   - Ctl+Sft+$$mdi:keyboard-esc$$
   - $$mdi:logout$$

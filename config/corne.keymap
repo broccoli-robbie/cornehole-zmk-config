@@ -460,10 +460,10 @@
         vim {
             display-name = "Vim";
             bindings = <
-&to 0   &kp ESC &kp LC(RIGHT) &end_word &vim_r   &none             &vim_y   &vim_u   &vim_i &vim_o    &kp LC(V) &none
-&trans  &vim_a  &vim_s        &vim_d    &none    &vim_g            &kp LEFT &kp DOWN &kp UP &kp RIGHT &none     &none
-&trans  &none   &kp DEL       &vim_c    &none    &kp LC(LEFT)      &none    &none    &none  &none     &none     &none
-                              &kp LALT  &kp LCTRL &trans            &to 0    &trans   &none
+&to 0   &kp ESC &kp LC(RIGHT) &end_word &vim_r   &trans            &vim_y   &vim_u   &vim_i &vim_o    &kp LC(V) &trans
+&trans  &vim_a  &vim_s        &vim_d    &trans   &vim_g            &kp LEFT &kp DOWN &kp UP &kp RIGHT &trans    &trans
+&trans  &trans  &kp DEL       &vim_c    &trans   &kp LC(LEFT)      &trans   &trans   &trans &trans    &trans    &trans
+                              &kp LALT  &kp LCTRL &trans            &to 0    &trans   &trans
             >;
         };
 
