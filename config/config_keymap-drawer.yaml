@@ -10,22 +10,18 @@ parse_config:
       shifted: ""
       tap: $$mdi:backspace$$
       hold: Numbers
-      type: held
     "&my_lt 2 RET":
       shifted: ""
       tap: $$mdi:keyboard-return$$
       hold: Symbols
-      type: held
     "&my_lt 3 DEL":
       shifted: ""
       tap: $$mdi:backspace-reverse-outline$$
       hold: Cursor
-      type: held
     "&my_lt 6 MINUS":
       shifted: ""
       tap: "-"
       hold: System
-      type: held
 
     # modifiers
     "&kp LSHFT": $$mdi:apple-keyboard-shift$$

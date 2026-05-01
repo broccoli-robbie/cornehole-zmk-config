@@ -790,16 +790,16 @@ rect.held {
 <rect rx="6" ry="6" x="-38" y="-38" width="77" height="77" class="key"/>
 <text x="0" y="0" class="key tap">\</text>
 </g>
-<g transform="translate(320, 293)" class="key held keypos-36">
-<rect rx="6" ry="6" x="-38" y="-38" width="77" height="77" class="key held"/>
-<use href="#mdi:backspace-reverse-outline" xlink:href="#mdi:backspace-reverse-outline" x="-11" y="-11" height="22" width="22.0" class="key held tap glyph mdi:backspace-reverse-outline"/>
+<g transform="translate(320, 293)" class="key keypos-36">
+<rect rx="6" ry="6" x="-38" y="-38" width="77" height="77" class="key"/>
+<use href="#mdi:backspace-reverse-outline" xlink:href="#mdi:backspace-reverse-outline" x="-11" y="-11" height="22" width="22.0" class="key tap glyph mdi:backspace-reverse-outline"/>
 <a href="#Cursor">
-<text x="0" y="34" class="key held hold layer-activator"><tspan style="font-size: 83%">Cursor</tspan></text>
+<text x="0" y="34" class="key hold layer-activator"><tspan style="font-size: 83%">Cursor</tspan></text>
 </a></g>
-<g transform="translate(408, 304) rotate(15.0)" class="key held keypos-37">
-<rect rx="6" ry="6" x="-38" y="-38" width="77" height="77" class="key held"/>
-<use href="#mdi:backspace" xlink:href="#mdi:backspace" x="-11" y="-11" height="22" width="22.0" class="key held tap glyph mdi:backspace"/>
-<text x="0" y="34" class="key held hold"><tspan style="font-size: 71%">Numbers</tspan></text>
+<g transform="translate(408, 304) rotate(15.0)" class="key keypos-37">
+<rect rx="6" ry="6" x="-38" y="-38" width="77" height="77" class="key"/>
+<use href="#mdi:backspace" xlink:href="#mdi:backspace" x="-11" y="-11" height="22" width="22.0" class="key tap glyph mdi:backspace"/>
+<text x="0" y="34" class="key hold"><tspan style="font-size: 71%">Numbers</tspan></text>
 </g>
 <g transform="translate(502, 320) rotate(30.0)" class="key keypos-38">
 <rect rx="6" ry="6" x="-38" y="-58" width="77" height="117" class="key"/>
@@ -809,16 +809,16 @@ rect.held {
 <rect rx="6" ry="6" x="-38" y="-58" width="77" height="117" class="key"/>
 <use href="#mdi:keyboard-space" xlink:href="#mdi:keyboard-space" x="-11" y="-11" height="22" width="22.0" class="key tap glyph mdi:keyboard-space"/>
 </g>
-<g transform="translate(792, 304) rotate(-15.0)" class="key held keypos-40">
-<rect rx="6" ry="6" x="-38" y="-38" width="77" height="77" class="key held"/>
-<use href="#mdi:keyboard-return" xlink:href="#mdi:keyboard-return" x="-11" y="-11" height="22" width="22.0" class="key held tap glyph mdi:keyboard-return"/>
-<text x="0" y="34" class="key held hold"><tspan style="font-size: 71%">Symbols</tspan></text>
+<g transform="translate(792, 304) rotate(-15.0)" class="key keypos-40">
+<rect rx="6" ry="6" x="-38" y="-38" width="77" height="77" class="key"/>
+<use href="#mdi:keyboard-return" xlink:href="#mdi:keyboard-return" x="-11" y="-11" height="22" width="22.0" class="key tap glyph mdi:keyboard-return"/>
+<text x="0" y="34" class="key hold"><tspan style="font-size: 71%">Symbols</tspan></text>
 </g>
-<g transform="translate(880, 293)" class="key held keypos-41">
-<rect rx="6" ry="6" x="-38" y="-38" width="77" height="77" class="key held"/>
-<text x="0" y="0" class="key held tap">-</text>
+<g transform="translate(880, 293)" class="key keypos-41">
+<rect rx="6" ry="6" x="-38" y="-38" width="77" height="77" class="key"/>
+<text x="0" y="0" class="key tap">-</text>
 <a href="#System">
-<text x="0" y="34" class="key held hold layer-activator"><tspan style="font-size: 83%">System</tspan></text>
+<text x="0" y="34" class="key hold layer-activator"><tspan style="font-size: 83%">System</tspan></text>
 </a></g>
 </g>
 </g>
