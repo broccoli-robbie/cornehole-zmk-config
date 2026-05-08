@@ -1611,9 +1611,9 @@ rect.held {
 <rect rx="6" ry="6" x="-38" y="-38" width="77" height="77" class="key"/>
 <text x="0" y="0" class="key tap"><tspan style="font-size: 83%">Delete</tspan></text>
 </g>
-<g transform="translate(360, 130)" class="key trans keypos-16">
-<rect rx="6" ry="6" x="-38" y="-38" width="77" height="77" class="key trans"/>
-<use href="#mdi:menu-down-outline" xlink:href="#mdi:menu-down-outline" x="-11" y="-11" height="22" width="22.0" class="key trans tap glyph mdi:menu-down-outline"/>
+<g transform="translate(360, 130)" class="key keypos-16">
+<rect rx="6" ry="6" x="-38" y="-38" width="77" height="77" class="key"/>
+<text x="0" y="0" class="key tap">Ctl+F</text>
 </g>
 <g transform="translate(440, 140)" class="key keypos-17">
 <rect rx="6" ry="6" x="-38" y="-38" width="77" height="77" class="key"/>
@@ -1661,9 +1661,12 @@ rect.held {
 <rect rx="6" ry="6" x="-38" y="-38" width="77" height="77" class="key"/>
 <text x="0" y="0" class="key tap"><tspan style="font-size: 83%">Change</tspan></text>
 </g>
-<g transform="translate(360, 210)" class="key trans keypos-28">
-<rect rx="6" ry="6" x="-38" y="-38" width="77" height="77" class="key trans"/>
-<use href="#mdi:menu-down-outline" xlink:href="#mdi:menu-down-outline" x="-11" y="-11" height="22" width="22.0" class="key trans tap glyph mdi:menu-down-outline"/>
+<g transform="translate(360, 210)" class="key keypos-28">
+<rect rx="6" ry="6" x="-38" y="-38" width="77" height="77" class="key"/>
+<text x="0" y="0" class="key tap">
+<tspan x="0" dy="-1.0em">Ctl+</tspan><tspan x="0" dy="1.0em">LEFT</tspan><tspan x="0" dy="1.0em">SHIFT</tspan>
+</text>
+<text x="0" y="34" class="key hold"><tspan style="font-size: 83%">sticky</tspan></text>
 </g>
 <g transform="translate(440, 220)" class="key keypos-29">
 <rect rx="6" ry="6" x="-38" y="-38" width="77" height="77" class="key"/>

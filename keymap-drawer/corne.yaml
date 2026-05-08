@@ -232,7 +232,7 @@ layers:
   - Append
   - Substitute
   - Delete
-  - {t: '$$mdi:menu-down-outline$$', type: trans}
+  - Ctl+F
   - Move Screen
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
@@ -244,7 +244,7 @@ layers:
   - {t: '$$mdi:menu-down-outline$$', type: trans}
   - $$mdi:backspace-reverse-outline$$
   - Change
-  - {t: '$$mdi:menu-down-outline$$', type: trans}
+  - {t: Ctl+LEFT SHIFT, h: sticky}
   - Prev Word
   - {t: '$$mdi:menu-down-outline$$', type: trans}
   - {t: '$$mdi:menu-down-outline$$', type: trans}
