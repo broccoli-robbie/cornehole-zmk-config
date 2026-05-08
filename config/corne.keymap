@@ -420,10 +420,10 @@
         number {
             display-name = "Number";
             bindings = <
-&trans    &sk LSHIFT   &kp LC(Y)    &kp LC(Z)  &kp BSPC       &kp LC(X)    &kp STAR  &kp N7        &kp N8  &kp N9  &kp FSLH   &kp PRCNT
-&trans    &kp LSHIFT   &kp LCTRL    &kp LALT   &kp LGUI       &kp LC(C)    &kp PLUS  &kp N4        &kp N5  &kp N6  &kp MINUS  &kp CARET
-&kp CAPS  &kp LG(TAB)  &kp LS(TAB)  &kp RET    &kp LS(LG(S))  &kp LC(V)    &kp DLLR  &kp N1        &kp N2  &kp N3  &kp DOT    &kp HASH
-                                    &kp LT     &kp EQUAL      &kp GT       &to 0     &kp KP_ENTER  &kp N0
+&trans  &sk LSHIFT   &kp LC(Y)    &kp LC(Z)  &kp LC(F)      &kp LC(X)    &kp STAR  &kp N7        &kp N8  &kp N9  &kp FSLH   &kp PRCNT
+&trans  &kp LSHIFT   &kp LCTRL    &kp LALT   &kp LGUI       &kp LC(C)    &kp PLUS  &kp N4        &kp N5  &kp N6  &kp MINUS  &kp CARET
+&trans  &kp LG(TAB)  &kp LS(TAB)  &kp RET    &kp LS(LG(S))  &kp LC(V)    &kp DLLR  &kp N1        &kp N2  &kp N3  &kp DOT    &kp HASH
+                                  &kp LT     &kp EQUAL      &kp GT       &to 0     &kp KP_ENTER  &kp N0
             >;
         };
 
@@ -440,10 +440,10 @@
         cursor {
             display-name = "Cursor";
             bindings = <
-&kp ESC       &sk LSHIFT  &kp LC(Y)     &kp LC(Z)     &kp BSPC    &kp LC(X)    &kp HOME    &kp PG_DN     &kp PG_UP     &kp END     &kp INS     &kp K_APP
-&extend_word  &kp LSHIFT  &kp LCTRL     &kp LALT      &kp LGUI    &kp LC(C)    &kp LEFT    &kp DOWN      &kp UP        &kp RIGHT   &kp PSCRN   &kp KP_NLCK
-&extend_line  &kp LC(A)   &select_line  &select_word  &kp K_FIND  &kp LC(V)    &kp K_PREV  &kp K_VOL_DN  &kp K_VOL_UP  &kp K_NEXT  &kp K_STOP  &kp SLCK
-                                        &to 0         &none       &none        &to 0       &kp K_PP      &kp K_MUTE
+&kp CAPS   &sk LSHIFT    &kp LC(Y)     &kp LC(Z)     &kp LC(F)     &kp LC(X)    &kp HOME    &kp PG_DN     &kp PG_UP     &kp END     &kp INS     &kp DELETE
+&trans     &kp LSHIFT    &kp LCTRL     &kp LALT      &kp LGUI      &kp LC(C)    &kp LEFT    &kp DOWN      &kp UP        &kp RIGHT   &kp PSCRN   &kp KP_NLCK
+&kp LC(A)  &select_line  &extend_line  &select_word  &extend_word  &kp LC(V)    &kp K_PREV  &kp K_VOL_DN  &kp K_VOL_UP  &kp K_NEXT  &kp K_STOP  &kp SLCK
+                                       &to 0         &none         &none        &to 0       &kp K_PP      &kp K_MUTE
             >;
         };
 

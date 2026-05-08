@@ -48,7 +48,7 @@ layers:
   - {t: '$$mdi:apple-keyboard-shift$$', h: sticky}
   - $$mdi:redo$$
   - $$mdi:undo$$
-  - $$mdi:backspace$$
+  - Ctl+F
   - $$mdi:content-cut$$
   - '*'
   - '7'
@@ -68,7 +68,7 @@ layers:
   - '6'
   - '-'
   - ^
-  - $$mdi:apple-keyboard-caps$$
+  - {t: '$$mdi:menu-down-outline$$', type: trans}
   - Gui+$$mdi:keyboard-tab$$
   - $$mdi:keyboard-tab-reverse$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
@@ -130,19 +130,19 @@ layers:
   - $$mdi:application-settings-outline$$
   - _
   Cursor:
-  - $$mdi:keyboard-esc$$
+  - $$mdi:apple-keyboard-caps$$
   - {t: '$$mdi:apple-keyboard-shift$$', h: sticky}
   - $$mdi:redo$$
   - $$mdi:undo$$
-  - $$mdi:backspace$$
+  - Ctl+F
   - $$mdi:content-cut$$
   - Home
   - $$mdi:transfer-down$$
   - $$mdi:transfer-up$$
   - End
   - Ins
-  - $$mdi:application-settings-outline$$
-  - Extend Word
+  - $$mdi:backspace-reverse-outline$$
+  - {t: '$$mdi:menu-down-outline$$', type: trans}
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-option$$
@@ -154,11 +154,11 @@ layers:
   - $$mdi:arrow-right-bold$$
   - $$mdi:printer-outline$$
   - $$mdi:lock-percent-outline$$
-  - Extend Line
   - Select All
   - Select Line
+  - Extend Line
   - Selext Word
-  - $$mdi:find-replace$$
+  - Extend Word
   - $$mdi:content-paste$$
   - $$mdi:skip-previous$$
   - $$mdi:volume-minus$$
