@@ -154,24 +154,24 @@ layers:
   - $$mdi:arrow-right-bold$$
   - $$mdi:printer-outline$$
   - $$mdi:lock-percent-outline$$
-  - Select All
+  - {t: '$$mdi:menu-down-outline$$', type: trans}
+  - $$mdi:stop$$
+  - $$mdi:skip-previous$$
+  - VOLUME DOWN
+  - VOLUME UP
+  - $$mdi:skip-next$$
+  - Extend Word
+  - Selext Word
   - Select Line
   - Extend Line
-  - Selext Word
-  - Extend Word
-  - $$mdi:content-paste$$
-  - $$mdi:skip-previous$$
-  - $$mdi:volume-minus$$
-  - $$mdi:volume-plus$$
-  - $$mdi:skip-next$$
-  - $$mdi:stop$$
+  - Select All
   - $$mdi:arrow-vertical-lock$$
   - {t: Base, h: toggle}
-  - ''
-  - ''
-  - {t: Base, h: toggle}
-  - $$mdi:play-pause$$
   - $$mdi:volume-mute$$
+  - PLAY PAUSE
+  - {t: Base, h: toggle}
+  - {t: '$$mdi:menu-down-outline$$', type: trans}
+  - {t: '$$mdi:menu-down-outline$$', type: trans}
   Game:
   - T
   - $$mdi:keyboard-tab$$

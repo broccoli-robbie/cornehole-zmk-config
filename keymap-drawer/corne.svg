@@ -132,9 +132,6 @@
 <svg id="mdi:monitor-screenshot">
 <svg xmlns="http://www.w3.org/2000/svg" id="mdi-monitor-screenshot" viewBox="0 0 24 24"><path d="M9,6H5V10H7V8H9M19,10H17V12H15V14H19M21,16H3V4H21M21,2H3C1.89,2 1,2.89 1,4V16A2,2 0 0,0 3,18H10V20H8V22H16V20H14V18H21A2,2 0 0,0 23,16V4C23,2.89 22.1,2 21,2" /></svg>
 </svg>
-<svg id="mdi:play-pause">
-<svg xmlns="http://www.w3.org/2000/svg" id="mdi-play-pause" viewBox="0 0 24 24"><path d="M3,5V19L11,12M13,19H16V5H13M18,5V19H21V5" /></svg>
-</svg>
 <svg id="mdi:power-sleep">
 <svg xmlns="http://www.w3.org/2000/svg" id="mdi-power-sleep" viewBox="0 0 24 24"><path d="M18.73,18C15.4,21.69 9.71,22 6,18.64C2.33,15.31 2.04,9.62 5.37,5.93C6.9,4.25 9,3.2 11.27,3C7.96,6.7 8.27,12.39 12,15.71C13.63,17.19 15.78,18 18,18C18.25,18 18.5,18 18.73,18Z" /></svg>
 </svg>
@@ -171,14 +168,8 @@
 <svg id="mdi:voicemail">
 <svg xmlns="http://www.w3.org/2000/svg" id="mdi-voicemail" viewBox="0 0 24 24"><path d="M18.5,15A3.5,3.5 0 0,1 15,11.5A3.5,3.5 0 0,1 18.5,8A3.5,3.5 0 0,1 22,11.5A3.5,3.5 0 0,1 18.5,15M5.5,15A3.5,3.5 0 0,1 2,11.5A3.5,3.5 0 0,1 5.5,8A3.5,3.5 0 0,1 9,11.5A3.5,3.5 0 0,1 5.5,15M18.5,6A5.5,5.5 0 0,0 13,11.5C13,12.83 13.47,14.05 14.26,15H9.74C10.53,14.05 11,12.83 11,11.5A5.5,5.5 0 0,0 5.5,6A5.5,5.5 0 0,0 0,11.5A5.5,5.5 0 0,0 5.5,17H18.5A5.5,5.5 0 0,0 24,11.5A5.5,5.5 0 0,0 18.5,6Z" /></svg>
 </svg>
-<svg id="mdi:volume-minus">
-<svg xmlns="http://www.w3.org/2000/svg" id="mdi-volume-minus" viewBox="0 0 24 24"><path d="M3,9H7L12,4V20L7,15H3V9M14,11H22V13H14V11Z" /></svg>
-</svg>
 <svg id="mdi:volume-mute">
 <svg xmlns="http://www.w3.org/2000/svg" id="mdi-volume-mute" viewBox="0 0 24 24"><path d="M3,9H7L12,4V20L7,15H3V9M16.59,12L14,9.41L15.41,8L18,10.59L20.59,8L22,9.41L19.41,12L22,14.59L20.59,16L18,13.41L15.41,16L14,14.59L16.59,12Z" /></svg>
-</svg>
-<svg id="mdi:volume-plus">
-<svg xmlns="http://www.w3.org/2000/svg" id="mdi-volume-plus" viewBox="0 0 24 24"><path d="M3,9H7L12,4V20L7,15H3V9M14,11H17V8H19V11H22V13H19V16H17V13H14V11Z" /></svg>
 </svg>
 </defs>/* end glyphs */
 <style>/* inherit to force styles through use tags */
@@ -1270,59 +1261,63 @@ rect.held {
 <rect rx="6" ry="6" x="-38" y="-38" width="77" height="77" class="key"/>
 <use href="#mdi:lock-percent-outline" xlink:href="#mdi:lock-percent-outline" x="-11" y="-11" height="22" width="22.0" class="key tap glyph mdi:lock-percent-outline"/>
 </g>
-<g transform="translate(40, 230)" class="key keypos-24">
-<rect rx="6" ry="6" x="-38" y="-38" width="77" height="77" class="key"/>
-<text x="0" y="0" class="key tap">
-<tspan x="0" dy="-0.5em" style="font-size: 83%">Select</tspan><tspan x="0" dy="1.0em" style="font-size: 83%">All</tspan>
-</text>
+<g transform="translate(40, 230)" class="key trans keypos-24">
+<rect rx="6" ry="6" x="-38" y="-38" width="77" height="77" class="key trans"/>
+<use href="#mdi:menu-down-outline" xlink:href="#mdi:menu-down-outline" x="-11" y="-11" height="22" width="22.0" class="key trans tap glyph mdi:menu-down-outline"/>
 </g>
 <g transform="translate(120, 230)" class="key keypos-25">
 <rect rx="6" ry="6" x="-38" y="-38" width="77" height="77" class="key"/>
-<text x="0" y="0" class="key tap">
-<tspan x="0" dy="-0.5em" style="font-size: 83%">Select</tspan><tspan x="0" dy="1.0em" style="font-size: 83%">Line</tspan>
-</text>
+<use href="#mdi:stop" xlink:href="#mdi:stop" x="-11" y="-11" height="22" width="22.0" class="key tap glyph mdi:stop"/>
 </g>
 <g transform="translate(200, 210)" class="key keypos-26">
 <rect rx="6" ry="6" x="-38" y="-38" width="77" height="77" class="key"/>
-<text x="0" y="0" class="key tap">
-<tspan x="0" dy="-0.5em" style="font-size: 83%">Extend</tspan><tspan x="0" dy="1.0em" style="font-size: 83%">Line</tspan>
-</text>
+<use href="#mdi:skip-previous" xlink:href="#mdi:skip-previous" x="-11" y="-11" height="22" width="22.0" class="key tap glyph mdi:skip-previous"/>
 </g>
 <g transform="translate(280, 200)" class="key keypos-27">
 <rect rx="6" ry="6" x="-38" y="-38" width="77" height="77" class="key"/>
 <text x="0" y="0" class="key tap">
-<tspan x="0" dy="-0.5em" style="font-size: 83%">Selext</tspan><tspan x="0" dy="1.0em" style="font-size: 83%">Word</tspan>
+<tspan x="0" dy="-0.5em" style="font-size: 83%">VOLUME</tspan><tspan x="0" dy="1.0em" style="font-size: 83%">DOWN</tspan>
 </text>
 </g>
 <g transform="translate(360, 210)" class="key keypos-28">
 <rect rx="6" ry="6" x="-38" y="-38" width="77" height="77" class="key"/>
 <text x="0" y="0" class="key tap">
-<tspan x="0" dy="-0.5em" style="font-size: 83%">Extend</tspan><tspan x="0" dy="1.0em" style="font-size: 83%">Word</tspan>
+<tspan x="0" dy="-0.5em" style="font-size: 83%">VOLUME</tspan><tspan x="0" dy="1.0em" style="font-size: 83%">UP</tspan>
 </text>
 </g>
 <g transform="translate(440, 220)" class="key keypos-29">
 <rect rx="6" ry="6" x="-38" y="-38" width="77" height="77" class="key"/>
-<use href="#mdi:content-paste" xlink:href="#mdi:content-paste" x="-11" y="-11" height="22" width="22.0" class="key tap glyph mdi:content-paste"/>
+<use href="#mdi:skip-next" xlink:href="#mdi:skip-next" x="-11" y="-11" height="22" width="22.0" class="key tap glyph mdi:skip-next"/>
 </g>
 <g transform="translate(760, 220)" class="key keypos-30">
 <rect rx="6" ry="6" x="-38" y="-38" width="77" height="77" class="key"/>
-<use href="#mdi:skip-previous" xlink:href="#mdi:skip-previous" x="-11" y="-11" height="22" width="22.0" class="key tap glyph mdi:skip-previous"/>
+<text x="0" y="0" class="key tap">
+<tspan x="0" dy="-0.5em" style="font-size: 83%">Extend</tspan><tspan x="0" dy="1.0em" style="font-size: 83%">Word</tspan>
+</text>
 </g>
 <g transform="translate(840, 210)" class="key keypos-31">
 <rect rx="6" ry="6" x="-38" y="-38" width="77" height="77" class="key"/>
-<use href="#mdi:volume-minus" xlink:href="#mdi:volume-minus" x="-11" y="-11" height="22" width="22.0" class="key tap glyph mdi:volume-minus"/>
+<text x="0" y="0" class="key tap">
+<tspan x="0" dy="-0.5em" style="font-size: 83%">Selext</tspan><tspan x="0" dy="1.0em" style="font-size: 83%">Word</tspan>
+</text>
 </g>
 <g transform="translate(920, 200)" class="key keypos-32">
 <rect rx="6" ry="6" x="-38" y="-38" width="77" height="77" class="key"/>
-<use href="#mdi:volume-plus" xlink:href="#mdi:volume-plus" x="-11" y="-11" height="22" width="22.0" class="key tap glyph mdi:volume-plus"/>
+<text x="0" y="0" class="key tap">
+<tspan x="0" dy="-0.5em" style="font-size: 83%">Select</tspan><tspan x="0" dy="1.0em" style="font-size: 83%">Line</tspan>
+</text>
 </g>
 <g transform="translate(1000, 210)" class="key keypos-33">
 <rect rx="6" ry="6" x="-38" y="-38" width="77" height="77" class="key"/>
-<use href="#mdi:skip-next" xlink:href="#mdi:skip-next" x="-11" y="-11" height="22" width="22.0" class="key tap glyph mdi:skip-next"/>
+<text x="0" y="0" class="key tap">
+<tspan x="0" dy="-0.5em" style="font-size: 83%">Extend</tspan><tspan x="0" dy="1.0em" style="font-size: 83%">Line</tspan>
+</text>
 </g>
 <g transform="translate(1080, 230)" class="key keypos-34">
 <rect rx="6" ry="6" x="-38" y="-38" width="77" height="77" class="key"/>
-<use href="#mdi:stop" xlink:href="#mdi:stop" x="-11" y="-11" height="22" width="22.0" class="key tap glyph mdi:stop"/>
+<text x="0" y="0" class="key tap">
+<tspan x="0" dy="-0.5em" style="font-size: 83%">Select</tspan><tspan x="0" dy="1.0em" style="font-size: 83%">All</tspan>
+</text>
 </g>
 <g transform="translate(1160, 230)" class="key keypos-35">
 <rect rx="6" ry="6" x="-38" y="-38" width="77" height="77" class="key"/>
@@ -1336,9 +1331,13 @@ rect.held {
 </g>
 <g transform="translate(408, 304) rotate(15.0)" class="key keypos-37">
 <rect rx="6" ry="6" x="-38" y="-38" width="77" height="77" class="key"/>
+<use href="#mdi:volume-mute" xlink:href="#mdi:volume-mute" x="-11" y="-11" height="22" width="22.0" class="key tap glyph mdi:volume-mute"/>
 </g>
 <g transform="translate(502, 320) rotate(30.0)" class="key keypos-38">
 <rect rx="6" ry="6" x="-38" y="-58" width="77" height="117" class="key"/>
+<text x="0" y="0" class="key tap">
+<tspan x="0" dy="-0.5em">PLAY</tspan><tspan x="0" dy="1.0em">PAUSE</tspan>
+</text>
 </g>
 <g transform="translate(698, 320) rotate(-30.0)" class="key keypos-39">
 <rect rx="6" ry="6" x="-38" y="-58" width="77" height="117" class="key"/>
@@ -1346,13 +1345,13 @@ rect.held {
 <text x="0" y="0" class="key tap layer-activator">Base</text>
 </a><text x="0" y="54" class="key hold"><tspan style="font-size: 83%">toggle</tspan></text>
 </g>
-<g transform="translate(792, 304) rotate(-15.0)" class="key keypos-40">
-<rect rx="6" ry="6" x="-38" y="-38" width="77" height="77" class="key"/>
-<use href="#mdi:play-pause" xlink:href="#mdi:play-pause" x="-11" y="-11" height="22" width="22.0" class="key tap glyph mdi:play-pause"/>
+<g transform="translate(792, 304) rotate(-15.0)" class="key trans keypos-40">
+<rect rx="6" ry="6" x="-38" y="-38" width="77" height="77" class="key trans"/>
+<use href="#mdi:menu-down-outline" xlink:href="#mdi:menu-down-outline" x="-11" y="-11" height="22" width="22.0" class="key trans tap glyph mdi:menu-down-outline"/>
 </g>
-<g transform="translate(880, 293)" class="key keypos-41">
-<rect rx="6" ry="6" x="-38" y="-38" width="77" height="77" class="key"/>
-<use href="#mdi:volume-mute" xlink:href="#mdi:volume-mute" x="-11" y="-11" height="22" width="22.0" class="key tap glyph mdi:volume-mute"/>
+<g transform="translate(880, 293)" class="key trans keypos-41">
+<rect rx="6" ry="6" x="-38" y="-38" width="77" height="77" class="key trans"/>
+<use href="#mdi:menu-down-outline" xlink:href="#mdi:menu-down-outline" x="-11" y="-11" height="22" width="22.0" class="key trans tap glyph mdi:menu-down-outline"/>
 </g>
 </g>
 </g>
