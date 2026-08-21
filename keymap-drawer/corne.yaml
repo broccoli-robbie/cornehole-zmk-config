@@ -152,7 +152,7 @@ layers:
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-up-bold$$
   - $$mdi:arrow-right-bold$$
-  - $$mdi:printer-outline$$
+  - Ctl+P
   - $$mdi:lock-percent-outline$$
   - {t: '$$mdi:menu-down-outline$$', type: trans}
   - $$mdi:stop$$
@@ -160,9 +160,9 @@ layers:
   - VOLUME DOWN
   - VOLUME UP
   - $$mdi:skip-next$$
-  - Extend Word
-  - Selext Word
   - Select Line
+  - Selext Word
+  - Extend Word
   - Extend Line
   - Select All
   - $$mdi:arrow-vertical-lock$$

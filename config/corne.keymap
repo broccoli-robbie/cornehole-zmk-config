@@ -441,8 +441,8 @@
             display-name = "Cursor";
             bindings = <
 &kp CAPS  &sk LSHIFT  &kp LC(Y)   &kp LC(Z)          &kp LC(F)        &kp LC(X)           &kp HOME      &kp PG_DN     &kp PG_UP     &kp END       &kp INS    &kp DELETE
-&trans    &kp LSHIFT  &kp LCTRL   &kp LALT           &kp LGUI         &kp LC(C)           &kp LEFT      &kp DOWN      &kp UP        &kp RIGHT     &kp PSCRN  &kp KP_NLCK
-&trans    &kp K_STOP  &kp K_PREV  &kp K_VOLUME_DOWN  &kp K_VOLUME_UP  &kp K_NEXT          &extend_word  &select_word  &select_line  &extend_line  &kp LC(A)  &kp SLCK
+&trans    &kp LSHIFT  &kp LCTRL   &kp LALT           &kp LGUI         &kp LC(C)           &kp LEFT      &kp DOWN      &kp UP        &kp RIGHT     &kp LC(P)  &kp KP_NLCK
+&trans    &kp K_STOP  &kp K_PREV  &kp K_VOLUME_DOWN  &kp K_VOLUME_UP  &kp K_NEXT          &select_line  &select_word  &extend_word  &extend_line  &kp LC(A)  &kp SLCK
                                   &to 0              &kp K_MUTE       &kp K_PLAY_PAUSE    &to 0         &trans        &trans
             >;
         };
