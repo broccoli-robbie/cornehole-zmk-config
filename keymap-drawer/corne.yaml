@@ -12,7 +12,7 @@ layers:
   - I
   - O
   - P
-  - '@'
+  - {t: '-', h: System}
   - $$mdi:keyboard-tab$$
   - {t: A, h: '$$mdi:apple-keyboard-shift$$'}
   - {t: S, h: '$$mdi:apple-keyboard-control$$'}
@@ -42,7 +42,7 @@ layers:
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-return$$', h: Symbols}
-  - {t: '-', h: System}
+  - ''
   Number:
   - {t: '$$mdi:menu-down-outline$$', type: trans}
   - {t: '$$mdi:apple-keyboard-shift$$', h: sticky}
@@ -84,8 +84,8 @@ layers:
   - '='
   - '>'
   - {t: Base, h: toggle}
-  - $$mdi:keyboard-return$$
   - '0'
+  - {t: '$$mdi:menu-down-outline$$', type: trans}
   Symbol:
   - '~'
   - '!'
@@ -128,7 +128,7 @@ layers:
   - '>'
   - {t: Base, h: toggle}
   - $$mdi:application-settings-outline$$
-  - _
+  - {t: '$$mdi:menu-down-outline$$', type: trans}
   Cursor:
   - $$mdi:apple-keyboard-caps$$
   - {t: '$$mdi:apple-keyboard-shift$$', h: sticky}
@@ -214,7 +214,7 @@ layers:
   - $$mdi:keyboard-space$$
   - {t: Base, h: toggle}
   - $$mdi:backspace$$
-  - $$mdi:backspace-reverse-outline$$
+  - {t: '$$mdi:menu-down-outline$$', type: trans}
   Vim:
   - {t: Base, h: toggle}
   - $$mdi:keyboard-esc$$
@@ -270,7 +270,7 @@ layers:
   - F8
   - F9
   - F12
-  - F15
+  - {t: Base, h: toggle}
   - $$mdi:lock$$
   - $$mdi:brightness-1$$
   - $$mdi:brightness-4$$
@@ -300,4 +300,4 @@ layers:
   - {t: Game, h: toggle}
   - {t: Vim, h: toggle}
   - {t: Symbol, h: toggle}
-  - {t: Base, h: toggle}
+  - {t: '$$mdi:menu-down-outline$$', type: trans}
